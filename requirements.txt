@@ -1,0 +1,7 @@
+django==*
+mysqlclient==*
+djangorestframework==*
+django-cors-headers==*
+dj-database-url==*
+gunicorn==*
+psycopg2==*
