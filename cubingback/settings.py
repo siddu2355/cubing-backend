@@ -98,19 +98,19 @@ WSGI_APPLICATION = 'cubingback.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'cubing',
-        'HOST':'localhost',
-        'USER':'root',
-        'PASSWORD':'#$iddu2355'
-    }
-}
-
 # DATABASES = {
-#     "default":dj_database_url.parse("postgres://srm_cubing_0xxe_user:2xTYOg5fDWqn7PeDRrVauNckIqye5kvo@dpg-ckjanfa12bvs7394ir4g-a.singapore-postgres.render.com/srm_cubing_0xxe")
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'cubing',
+#         'HOST':'localhost',
+#         'USER':'root',
+#         'PASSWORD':'#$iddu2355'
+#     }
 # }
+
+DATABASES = {
+    "default":dj_database_url.parse("postgres://srm_cubing_0xxe_user:2xTYOg5fDWqn7PeDRrVauNckIqye5kvo@dpg-ckjanfa12bvs7394ir4g-a.singapore-postgres.render.com/srm_cubing_0xxe")
+}
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
