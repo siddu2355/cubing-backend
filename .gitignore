@@ -1,0 +1,4 @@
+.venv/
+cubingback/__pycache__/
+participants/__pycache__/
+participants/migrations/__pycache__/
